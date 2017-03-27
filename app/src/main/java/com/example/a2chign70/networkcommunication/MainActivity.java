@@ -26,7 +26,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
             HttpURLConnection conn = null;
             try
             {
-                URL url = new URL("http://server.com/people.php");
+                URL url = new URL("http://www.free-map.org.uk/course/mad/ws/hits.php?artist=Oasis");
                 conn = (HttpURLConnection) url.openConnection();
                 InputStream in = conn.getInputStream();
                 if(conn.getResponseCode() == 200)

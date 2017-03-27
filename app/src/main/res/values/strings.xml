@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NetworkCommunication</string>
+    <string name="go">go</string>
 </resources>

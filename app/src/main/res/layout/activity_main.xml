@@ -10,10 +10,10 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:id="@+id/et1"
-        />
+        android:text="a" />
 
     <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:id="@+id/btn1" android:text=" @string/calculate" />
+        android:id="@+id/go" android:text="@string/go" />
 
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
         android:id="@+id/tv1"/>
